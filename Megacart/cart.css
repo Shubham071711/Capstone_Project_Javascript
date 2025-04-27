@@ -1,0 +1,42 @@
+/* cart.css */
+
+/* Cart Page */
+#cartList {
+    padding: 0;
+    list-style: none;
+}
+
+#cartList li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#totalCost {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: right;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#logout {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#logout:hover {
+    color: #0056b3;
+}
+
+#date {
+    font-size: 14px;
+    color: #666;
+}

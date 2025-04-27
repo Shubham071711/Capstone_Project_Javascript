@@ -1,0 +1,124 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    color: #2d3436;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header,
+footer {
+    background-color: #f5f5dc;
+    /* Light beige */
+    color: #2d3436;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: #2d3436;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+    background-color: #f5f5dc;
+    /* Light beige */
+    border-bottom: 2px solid #ccc;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #2d3436;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a:hover {
+    background-color: #e0e0d1;
+    color: #000;
+    transform: scale(1.05);
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+/* Form Styling */
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #2d3436;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #636e72;
+}
+
+/* Confirmation Message */
+.confirmation-message {
+    display: none;
+    color: green;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+}
